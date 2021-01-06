@@ -1,0 +1,19 @@
+{
+  "name": "13circle-twitchbot-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm src",
+    "dev": "nodemon --watch src/ -r esm src"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "say": "^0.16.0",
+    "tmi.js": "^1.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
